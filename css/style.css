@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: 100vh;
+  background-color: #deb98d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page .card {
+  width: 300px;
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 5px 5px 0 0 black;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.page .card .bg {
+  width: 100%;
+}
+
+.page .card .content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.page .card .content .job {
+  background-color: #fea600;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.page .card .content .description {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.page .card .content .profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.page .card .content .profile .photo {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fea600;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.page .card .content .profile .info .name {
+  font-weight: bold;
+}
+
+.page .card .content .profile .info .time {
+  color: gray;
+}
